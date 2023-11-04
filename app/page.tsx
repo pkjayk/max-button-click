@@ -94,7 +94,8 @@ export default function Home() {
             top: `${buttonPosition.y}px`
           }}
           variant={'contained'}
-          onClick={() => handleClick()}>
+          onClick={() => handleClick()}
+          size={'large'}>
             Publish
         </Button>
         </div>
