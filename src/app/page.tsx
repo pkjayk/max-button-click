@@ -51,7 +51,7 @@ export default function Home() {
         <h1>Practice Clicking the Button, Max!</h1>
         <div style={{marginBottom:20}}>
           You need to practice clicking the button. Once you get to 1 million clicks, 
-          you will have restored our trust in you. Good luck!
+          you will have restored our trust in you.
         </div>
         <div>
         { taunt && clickCount < FINAL_CLICK_COUNT &&
